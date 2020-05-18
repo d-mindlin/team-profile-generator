@@ -1,0 +1,61 @@
+:root {
+  --primary: white;
+  /* --secondary: #daeaef;
+  --tertiary: #ff3d2e; */
+  --light: white;
+  --dark: #374144;
+  --border-radius: 0.2rem;
+  /* --spacing-one: calc(1rem * 0.25);
+  --spacing-two: calc(1rem * 0.5);
+  --spacing-three: 1rem;
+  --spacing-four: calc(1rem * 1.5);
+  --spacing-five: calc(1rem * 3); */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgb(252, 235, 201); */
+  margin: 0;
+  padding: 0;
+  font-family: 'Public Sans', sans-serif;
+  /* font-weight: 200; */
+  color: white;
+  /* line-height: 1.5; */
+  /* font-size: 16px; */
+}
+
+.jumbotron {
+  background-color: rgb(2, 6, 255);
+}
+
+
+/* CARDS */
+.card {
+  margin: 2px;
+  /* border: 3px  var(--dark); */
+  border-radius: var(--border-radius);
+  padding: 2px;
+  color: var(--dark);
+  background-color:white;
+  border: solid grey 0.5px;
+}
+
+.card-top {
+  background-color: rgb(127, 173, 233);
+}
+
+
+
+
+/* LAYOUT */
+.container {
+  width: 85%;
+  /* max-width: 1200px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+
